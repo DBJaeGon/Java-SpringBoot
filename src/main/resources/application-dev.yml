@@ -1,0 +1,5 @@
+spring:
+  config:
+    import:
+      - optional:classpath:env/dev/datasource-env.yml
+      - optional:classpath:env/dev/jpa-env.yml
